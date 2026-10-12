@@ -1,0 +1,33 @@
+# ---- data & caches (large / redistributable-restricted, do NOT commit) ----
+data/
+data_cache/
+raw_wisig/
+*.pkl
+*.npz
+*.zip
+*.mat
+
+# ---- python ----
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- logs & OS ----
+*.log
+.DS_Store
+Thumbs.db
+
+# ---- LaTeX build artifacts (keep .tex/.bib/figs, drop temp) ----
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.lof
+paper/*.lot
+paper/*.synctex.gz

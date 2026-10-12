@@ -1,0 +1,8 @@
+# NPIE — Neural Physical-impairment Estimation for RF Fingerprint Identification
+# Core dependencies (used by every script in this repo):
+torch>=1.12
+numpy>=1.21
+matplotlib>=3.5
+
+# Optional (only needed if you convert raw WiSig/ManySig .mat instead of .pkl):
+# scipy>=1.7
